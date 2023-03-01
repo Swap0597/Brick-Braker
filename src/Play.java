@@ -15,11 +15,11 @@ public class Play extends JPanel implements KeyListener, ActionListener {
     private int totalbricks = 21;       // will be used in counting score
     private Timer Timer;
     private int delay = 8;              // increasing it slows down the ball and reducing increses it
-    private int playerX = 300;          //310
+    private int playerX = 300;          
     private int ballposX = 120;
     private int ballposY = 300;
-    private int ballXdir = -1;       // -1
-    private int ballYdir = -2;       // -2
+    private int ballXdir = -1;
+    private int ballYdir = -2;
     private MapGenerator map;
 
     public Play() {
